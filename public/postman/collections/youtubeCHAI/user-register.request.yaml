@@ -1,0 +1,40 @@
+$kind: http-request
+name: user/register
+url: "{{server}}/user/register"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: fullname
+      value: one
+      description: ""
+      disabled: false
+    - type: text
+      key: email
+      value: one@gmail.com
+      description: ""
+      disabled: false
+    - type: text
+      key: username
+      value: one1
+      description: ""
+      disabled: false
+    - type: text
+      key: password
+      value: "12345"
+      description: ""
+      disabled: false
+    - type: file
+      key: avatar
+      src:
+        - /C:/Users/priya/Downloads/—Pngtree—.png
+      description: ""
+      disabled: false
+    - type: file
+      key: coverImage
+      src:
+        - /C:/Users/priya/Downloads/WhatsApp Image 2026-08-30 at 01.51.41.jpeg
+      description: ""
+      disabled: false
+order: 1789101722129
